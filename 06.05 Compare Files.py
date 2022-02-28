@@ -2,8 +2,8 @@
 
 #onefile = open("/workspace/IFSC1202/Assignments/Unit 6 HW/Text Files/06.05 CompareFileA.txt", "r")
 #twofile = open("/workspace/IFSC1202/Assignments/Unit 6 HW/Text Files/06.05 CompareFileB.txt", "r")
-onefile = open("/workspace/IFSC1202SU/06.05 CompareFileA.txt", "r")
-twofile = open("/workspace/IFSC1202SU/06.05 CompareFileB.txt", "r")
+onefile = open("/workspace/IFSC1202/06.05 CompareFileA.txt", "r")
+twofile = open("/workspace/IFSC1202/06.05 CompareFileB.txt", "r")
 a = onefile.readline()
 b = twofile.readline()
 line = 0
