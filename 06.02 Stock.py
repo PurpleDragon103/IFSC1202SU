@@ -1,6 +1,5 @@
 
 def percentchange(x,b):
-    x = float(x)
     p = (x - b) / b * 100
     return p
 
@@ -11,7 +10,8 @@ x = float(stockfile.readline())
 print("{0:^10}{1:^10}".format("Price","Change"))
 print("{:^10}".format(x))
 while x != "":
-    b = x
+    b = float(x)
     x = float(stockfile.readline())
+    p = float(percentchange(x,b))
     print("{:^10.2f}{:10.2f}%".format(x,percentchange(x,b)))
 x = stockfile.close()
