@@ -17,5 +17,8 @@ x = float(radiusfile.readline())
 print("{0:>15}{1:>15}{2:>15}{3:>15}".format("Radius","Diameter","Circumference","Area"))
 while x != "":
     print("{0:15.5f}{1:15.5f}{2:15.5f}{3:15.5f}".format(x,diameter(x),circumference(x),area(x)))
-    x = float(radiusfile.readline())
+    x = radiusfile.readline()
+    if x != "":
+        x = float(x)
+
 radiusfile.close()
