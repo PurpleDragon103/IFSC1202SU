@@ -1,16 +1,17 @@
 
 a = []
-# Open the file and read the first line`
 x = input("Enter the number of rows and columns: ")
 MofN = x.split(" ")
 # Convert the values from string to an integer
 for i in range(len(MofN)):
     MofN[i] = int(MofN[i])
 
+# MofN has number of rows in 0 and columns in 1
 for m in range(MofN[0]):
     data = input("Input a line of data: ")
     line = data.split(" ")
-    for num in range(len(line)):
+    # string to int conversion
+    for num in range(MofN[1]):
         line[num] = int(line[num])
     # Append the list to the two dimensional array
     a.append(line)
