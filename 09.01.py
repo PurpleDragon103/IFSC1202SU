@@ -1,5 +1,9 @@
 
 a = []
+maxn = 0
+row = 0
+col = 0
+
 x = input("Enter the number of rows and columns: ")
 MofN = x.split(" ")
 # Convert the values from string to an integer
@@ -20,7 +24,11 @@ for m in range(MofN[0]):
 for i in range(len(a)):
     # Loop though each element in the list
     for j in range(len(a[i])):
-        # Find the max
-        "enter max code here with tempi and tempj or... max() then find maybe? idk"
+        if a[i][j] > maxn:
+            maxn = a[i][j]
+            row = i
+            col = j
 
-print("The maximum value {} occured in row {} column {}".format(max,m,n))
+print("The maximum value {} occured in row {} column {}".format(maxn,row,col))
+
+
