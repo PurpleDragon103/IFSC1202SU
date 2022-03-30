@@ -11,7 +11,7 @@ def swap_columns(a, i, j):
     return(a)
 
 a = []
-numfile = open("/workspace/IFSC1202SU/09.02 NumbersList.txt", 'r') 
+numfile = open("/workspace/IFSC1202/Text Files/09.02 NumbersList.txt", 'r') 
 num = numfile.readline() 
 
 while num != "":

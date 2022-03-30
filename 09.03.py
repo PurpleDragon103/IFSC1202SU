@@ -10,7 +10,7 @@ def scale_list(a, s):
     return(a)
 
 a = []
-numfile = open("/workspace/IFSC1202SU/09.03 NumbersList.txt", 'r') 
+numfile = open("/workspace/IFSC1202/Text Files/09.03 NumbersList.txt", 'r') 
 num = numfile.readline() 
 
 while num != "":

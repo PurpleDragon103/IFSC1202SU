@@ -5,7 +5,7 @@ ToUnit = input("Enter To Unit (mm, cm, m, km, in, yd, mi): ")
 row = 0
 col = 0
 # Open the file and read the first line 
-convfile = open("/workspace/IFSC1202SU/09.04 Conversion.txt", 'r') 
+convfile = open("/workspace/IFSC1202/Text Files/09.04 Conversion.txt", 'r') 
 conv = convfile.readline() 
 
 while conv != "":

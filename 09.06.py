@@ -1,8 +1,7 @@
-# Create the array 
 a = []
 total = 0
 # Open the file and read the first line 
-tempsfile = open("/workspace/IFSC1202SU/09.06 CityTemps.txt", 'r') 
+tempsfile = open("/workspace/IFSC1202/Text Files/09.06 CityTemps.txt", 'r') 
 temps = tempsfile.readline() 
 
 while temps != "":
